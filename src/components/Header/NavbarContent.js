@@ -10,7 +10,7 @@ export const Nav = styled.nav`
   top: 0;
   height: 80px;
   margin-top: -80px;
-  background-color: #000;
+  background-color: ${({ scrollNav }) => (scrollNav ? "#000" : "transparent")};
   font-size: 1rem;
   z-index: 10;
 

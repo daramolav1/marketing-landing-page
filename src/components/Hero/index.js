@@ -22,7 +22,7 @@ function Hero() {
 
   return (
     <>
-      <HeroContainer>
+      <HeroContainer id="home">
         <HeroBg>
           <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
         </HeroBg>
@@ -39,6 +39,11 @@ function Hero() {
               onMouseLeave={onHover}
               primary="true"
               dark="true"
+              smooth
+              duration={500}
+              spy
+              exact
+              offset={-80}
             >
               Get started {hover ? <ArrowForward /> : <ArrowRight />}
             </Btn>
