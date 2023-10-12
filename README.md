@@ -4,7 +4,7 @@ Marketing Landing Page is a standalong react web page, created specifically for 
 
 ## Links
 
-- [Live Demo](https://marketing-landing-page-client.herokuapp.com)
+- [Live Demo](https://marketing-campaign-landing-page.netlify.app/)
 
 ## Screenshots
 
